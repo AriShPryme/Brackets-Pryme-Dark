@@ -1,0 +1,183 @@
+/*
+"name": "brackets_dark_pryme",
+"title": "Brackets Dark Pryme",
+"version": "1.0.", 
+"description": "Nice Dark Theme for Dark lovers to make coding fun and an enjoyable experience. This theme is based on Brackets Pryme Light theme. Happy Coding!",
+"homepage": "https://github.com/AriShPryme/brackets_pryme",
+"author": "AriSh <arishpryme@gmail.com> (http://www.prymera.xyz)",
+"license": "MIT",
+"This is a light theme made for brackets. This theme will bring some life to boring coding work."
+*/
+
+@background: #252b32;
+@foreground: #ffffff;
+
+/*  Color Scheme  */
+.cm-string {color: #1db300;}
+.cm-string.cm-property {color: #666;}
+.cm-error {background: #FFFF73; color: #dc322f !important;}
+.cm-meta {color: #ff000c;}
+.cm-comment {color: #626a62; font-size:14px; }
+.cm-atom {color: #5ca5e2;}
+.cm-number {color: #ff00ea;}
+.cm-link {color: #E88520;text-decoration: none;}
+.cm-property {color: #E88520;}
+.cm-attribute {color: #de935f;}
+.cm-keyword {color: #ff000c;}
+.cm-variable {color: #ff000c;}
+.cm-variable-2 {color: #8abeb7;}
+.cm-variable-3 {color: #EC7600;}
+.cm-qualifier {color: #b5bd68;}
+.cm-builtin {color: #ff000c;}
+.cm-def {color: #8abeb7;}
+.cm-bracket {color: antiquewhite;}
+.cm-operator {color: #ffffff;}
+.cm-tag {color: #5ca5e2;}
+
+
+/* Editor Style */
+
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+	background: @background;
+	color: @foreground;
+	font-family: 'Raleway', 'Prestige Elite Std', 'Source Sans Pro' ;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	letter-spacing: 1px;
+}
+
+
+#not-editor,
+#image-holder {
+	background-color: #222;
+	color: #F8F8F2;
+	transition: background-color 0.3s ease-out;
+}
+
+div.CodeMirror-selected {
+	background-color: #02fffc;
+	opacity: .15;
+}
+
+.CodeMirror-gutters {
+	background-color: #1f242a;
+	border-right: 1px solid #1b2025;
+}
+
+.CodeMirror-guttermarker {
+	color: #435e70;
+}
+
+.CodeMirror-guttermarker-subtle {
+	color: #435e70;
+}
+
+.CodeMirror-linenumber {
+	color: #435e70;
+}
+
+.CodeMirror-cursor {
+	border-left: 2px solid #ff000c !important;
+}
+
+.CodeMirror-activeline-background,
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	background-color: #1a1f25;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	background-color: #1a1f25;;
+	color: @light-blue;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+	background-color: @background;
+	color: #767676;
+}
+
+.CodeMirror-matchingtag {
+	background-color: #3e4751;
+	border-top: 2px solid #3e4751;
+	border-bottom: 4px solid #b1b0b0;
+}
+
+
+.CodeMirror-matchingbracket {
+	background-color: #3e4751 !important;
+	color: #FF0303 !important;
+	border-top: 1px solid #3e4751;
+	border-bottom: 3px solid #c9c9c9;
+	padding:3px 3px 0 3px;
+      margin-left: -3px;
+}
+
+
+/**
+* Extensions
+* ==========
+*/
+
+
+/*
+* Brackets-Vim (https://github.com/megalord/brackets-vim)
+* -------------------------------------------------------
+*/
+
+.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
+	background: rgba(248, 248, 242, 0.5) !important;
+}
+
+
+/**
+* Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)
+* --------------------------------------------------------------------------
+*/
+
+.CodeMirror .cm-dk-whitespace-space::before,
+.CodeMirror .cm-dk-whitespace-tab::before,
+.CodeMirror .cm-dk-whitespace-leading-space::before,
+.CodeMirror .cm-dk-whitespace-leading-tab::before,
+.CodeMirror .cm-dk-whitespace-trailing-space::before,
+.CodeMirror .cm-dk-whitespace-trailing-tab::before {
+	background-color: #75715E !important;
+}
+
+
+/**
+* Code Folding (https://github.com/thehogfather/brackets-code-folding)
+* --------------------------------------------------------------------
+*/
+
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter-blank,
+.CodeMirror-foldgutter-folded,
+.CodeMirror-foldgutter-open {
+	color: #75715E;
+}
+
+.CodeMirror-foldgutter-open::after {
+	content: "\25bd";
+}
+
+.CodeMirror-foldmarker {
+	background-color: #bbb;
+	border-color: #555;
+	color: #555;
+	padding: 0 10px;
+}
+
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+	background-color: @background;
+}
+
+#image-holder {
+	color: @foreground;
+}
+
