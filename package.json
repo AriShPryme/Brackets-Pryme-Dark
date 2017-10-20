@@ -1,25 +1,25 @@
 {
-	"name": "brackets-pryme-light",
-	"title": "Brackets Pryme Theme - Light",
-	"version": "2.0.4",
-	"description": "Delicate and colourful light theme that makes coding fun and an enjoyable experience. Happy Coding!",
-    "homepage": "https://github.com/AriShPryme/brackets_pryme",
-	"author": "AriSh <arishpryme@gmail.com> (http://www.prymera.xyz)",
-	"license": "MIT",
-	"theme": {
-		"file": "theme.less",
-		"dark": false
-	},
-	"engines": {
-		"brackets": ">=0.42.0"
-	},
-	"keywords": [
-		"pryme",
-		"theme",
-		"code",
-		"colourful",
-		"fun",
-		"brackets",
-		"light"
-	]
+      "name" : "brackets-dark-pryme",
+      "title" : "Brackets Pryme Theme - Dark",
+      "version" : "1.0.1",
+      "description" : "Brackets Dark Theme for dark lovers to make coding fun and an enjoyable experience. This theme is based on Brackets Pryme Light theme. Happy Coding!",
+      "homepage" : "https://github.com/AriShPryme/Brackets-Dark-Pryme",
+      "author" : "AriSh <arishpryme@gmail.com> (http://www.prymera.xyz)",
+      "license" : "MIT",
+      "theme": {
+            "file" : "theme.less",
+            "dark" : true
+      },
+      "engines" : {
+            "brackets" : ">=0.42.0"
+      },
+      "keywords" : [
+            "pryme",
+            "brackets",
+            "theme",
+            "code",
+            "colorful",
+            "fun",
+            "dark"
+      ]
 }
