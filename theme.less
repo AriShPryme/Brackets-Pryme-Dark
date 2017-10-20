@@ -1,9 +1,9 @@
 /*
-"name": "brackets_dark_pryme",
+"name": "brackets_pryme_dark",
 "title": "Brackets Pryme Theme - Dark",
 "version": "1.0.1", 
-"description": "Nice Dark Theme for Dark lovers to make coding fun and an enjoyable experience. This theme is based on Brackets Pryme Light theme. Happy Coding!",
-"homepage": "https://github.com/AriShPryme/Brackets-Dark-Pryme",
+"description": "Nice Dark Brackets Theme for Dark lovers to make coding fun and an enjoyable experience. This theme is based on Brackets Pryme Light theme. Happy Coding!",
+"homepage": "https://github.com/AriShPryme/Brackets-Pryme-Dark",
 "author": "AriSh <arishpryme@gmail.com> (http://www.prymera.xyz)",
 "license": "MIT",
 "This is a dark theme made for brackets. This theme will bring some life to boring coding work."
@@ -12,28 +12,27 @@
 @background: #252b32;
 @foreground: #ffffff;
 
-/*  Color Scheme  */
+/* Color Scheme */
 .cm-string {color: #1db300;}
 .cm-string.cm-property {color: #666;}
 .cm-error {background: #FFFF73; color: #dc322f !important;}
 .cm-meta {color: #ff000c;}
-.cm-comment {color: #626a62; font-size:14px; }
+.cm-comment {color: #626a62; font-size:14px;}
 .cm-atom {color: #5ca5e2;}
 .cm-number {color: #ff00ea;}
-.cm-link {color: #E88520;text-decoration: none;}
-.cm-property {color: #E88520;}
+.cm-link {color: #e88520;text-decoration: none;}
+.cm-property {color: #e88520;}
 .cm-attribute {color: #de935f;}
 .cm-keyword {color: #ff000c;}
 .cm-variable {color: #ff000c;}
 .cm-variable-2 {color: #8abeb7;}
-.cm-variable-3 {color: #EC7600;}
+.cm-variable-3 {color: #ec7600;}
 .cm-qualifier {color: #b5bd68;}
 .cm-builtin {color: #ff000c;}
 .cm-def {color: #8abeb7;}
 .cm-bracket {color: antiquewhite;}
 .cm-operator {color: #ffffff;}
 .cm-tag {color: #5ca5e2;}
-
 
 /* Editor Style */
 
@@ -47,7 +46,6 @@
 	line-height: 26px;
 	letter-spacing: 1px;
 }
-
 
 #not-editor,
 #image-holder {
@@ -88,8 +86,8 @@ div.CodeMirror-selected {
 }
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-	background-color: #1a1f25;;
-	color: @light-blue;
+	background-color: #1a1f25;
+	color: #9cdcfe;
 }
 
 .CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
@@ -106,34 +104,25 @@ div.CodeMirror-selected {
 
 .CodeMirror-matchingbracket {
 	background-color: #3e4751 !important;
-	color: #FF0303 !important;
+	color: #ff0303 !important;
 	border-top: 1px solid #3e4751;
 	border-bottom: 3px solid #c9c9c9;
-	padding:3px 3px 0 3px;
+	padding: 3px 3px 0 3px;
       margin-left: -3px;
 }
 
 
-/**
-* Extensions
-* ==========
-*/
+/* Extensions */
 
 
-/*
-* Brackets-Vim (https://github.com/megalord/brackets-vim)
-* -------------------------------------------------------
-*/
+/* Brackets-Vim (https://github.com/megalord/brackets-vim) */
 
 .CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
 	background: rgba(248, 248, 242, 0.5) !important;
 }
 
 
-/**
-* Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)
-* --------------------------------------------------------------------------
-*/
+/* Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace) */
 
 .CodeMirror .cm-dk-whitespace-space::before,
 .CodeMirror .cm-dk-whitespace-tab::before,
@@ -145,10 +134,7 @@ div.CodeMirror-selected {
 }
 
 
-/**
-* Code Folding (https://github.com/thehogfather/brackets-code-folding)
-* --------------------------------------------------------------------
-*/
+/* Code Folding (https://github.com/thehogfather/brackets-code-folding) */
 
 .CodeMirror-foldgutter,
 .CodeMirror-foldgutter,
@@ -179,5 +165,10 @@ div.CodeMirror-selected {
 
 #image-holder {
 	color: @foreground;
+}
+
+//place at line 57
+.CodeMirror {
+	border-left-color: #1B1B1B;
 }
 
