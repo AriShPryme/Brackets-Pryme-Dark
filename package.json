@@ -3,12 +3,13 @@
 	"title": "Brackets Pryme Theme - Dark",
 	"version": "1.0.0",
 	"description": "Nice Dark Theme for Dark lovers to make coding fun and an enjoyable experience. This theme is based on Brackets Pryme Light theme. Happy Coding!",
-    "homepage": "https://github.com/AriShPryme/brackets_dark_pryme",
+    "homepage": "https://github.com/AriShPryme/Brackets-Dark-Pryme",
+      
 	"author": "AriSh <arishpryme@gmail.com> (http://www.prymera.xyz)",
 	"license": "MIT",
 	"theme": {
 		"file": "theme.less",
-		"dark": false
+		"dark": true
 	},
 	"engines": {
 		"brackets": ">=0.42.0"
